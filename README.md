@@ -20,6 +20,10 @@ All persistent entities must extend from BaseEntity class and must be named [NAM
 
 All exposed entities (DTOs) must extend from BaseType and must be named without suffixes. (e.g. Customer)
 
+### Services module
+
+Each service must have interface defined in _services_ package and its implementation in _impl_ package
+
 ## Overall design
 
 ![design](./images/design.png)
