@@ -24,6 +24,10 @@ All exposed entities (DTOs) must extend from BaseType and must be named without 
 
 Each service must have interface defined in _services_ package and its implementation in _impl_ package
 
+## Authentication
+
+Url: `https://keycloak.mjamsek.com/auth/admin/rso/console`
+
 ## Overall design
 
 ![design](./images/design.png)
