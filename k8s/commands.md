@@ -15,3 +15,11 @@ Delete deployment
 Enable google cloud firewall
 
 `gcloud compute firewall-rules create test-node-port --allow tcp:31010`
+
+## IP
+
+Get node external ip
+
+`kubectl get nodes --output wide`
+
+`35.242.205.141`
