@@ -16,6 +16,10 @@ Enable google cloud firewall
 
 `gcloud compute firewall-rules create test-node-port --allow tcp:31010`
 
+Enable all ports from 30000 - 35000
+
+`gcloud compute firewall-rules create all-ports-allowed --allow tcp:30000-35000`
+
 ## IP
 
 Get node external ip
