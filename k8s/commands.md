@@ -23,3 +23,5 @@ Get node external ip
 `kubectl get nodes --output wide`
 
 `34.89.253.14`
+
+`35.242.205.141`
