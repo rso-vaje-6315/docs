@@ -43,3 +43,15 @@ body (Content-Type: application/x-www-form-urlencoded):
 username=<user>&password=<pass>&grant_type=password&client_id=rso-public
 ```
 
+## Service ports
+customers 31010
+notifications 31011
+invoice 31012
+products 31013
+stock 31014
+ratings 31015
+analytics 31016
+orders 31017
+shopping cart 31018
+
+
