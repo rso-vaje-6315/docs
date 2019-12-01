@@ -10,7 +10,7 @@ Create from file:
 
 Create secret
 
-`kubectl create secret generic -n e-store customers-db-pass --from-literal=POSTGRES_PASSWORD=postgres`
+`kubectl create secret generic -n e-store customers-db-pass --from-literal=POSTGRES_PASSWORD=postgres --from-literal=POSTGRES_USER=postgres`
 
 Delete deployment
 
