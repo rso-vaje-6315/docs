@@ -1,5 +1,9 @@
 # Commands
 
+Login to cluster:
+
+`gcloud container clusters get-credentials [CLUSTER_NAME]`
+
 Create from file:
 
 `kubectl create -f file.yaml`
