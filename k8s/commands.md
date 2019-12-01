@@ -33,3 +33,13 @@ Get node external ip
 `34.89.253.14`
 
 `35.242.205.141`
+
+## Auth
+
+POST request to: `https://keycloak.mjamsek.com/auth/realms/rso/protocol/openid-connect/token`
+
+body (Content-Type: application/x-www-form-urlencoded):
+```
+username=<user>&password=<pass>&grant_type=password&client_id=rso-public
+```
+
