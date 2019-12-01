@@ -1,8 +1,9 @@
 # Commands
 
 Login to cluster:
-
-`gcloud container clusters get-credentials [CLUSTER_NAME]`
+* `gcloud auth login`
+* `gcloud config set project local-reference-258619`
+* `gcloud container clusters get-credentials second-cluster --zone europe-west3-b`
 
 Create from file:
 
