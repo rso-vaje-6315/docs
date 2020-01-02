@@ -33,7 +33,7 @@ Get node external ip
 
 Ingress IP: `34.89.139.199`
 
-Cluster IP is one of those: `34.89.253.14` or `35.242.205.141`
+Cluster IP: `35.242.205.141` (if not, try this: `34.89.253.14`)
 
 ## Auth
 
@@ -62,6 +62,9 @@ analytics 31016
 orders 31017
 
 shopping cart 31018
+
+---
+Consul UI 31050
 
 
 # Ingress config
