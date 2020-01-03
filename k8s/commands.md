@@ -64,6 +64,8 @@ orders 31017
 shopping cart 31018
 
 ---
+Web client 31030
+
 Consul UI 31050
 
 
