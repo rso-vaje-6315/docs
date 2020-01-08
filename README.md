@@ -30,4 +30,4 @@ Url: `https://keycloak.mjamsek.com/auth/admin/rso/console`
 
 ## Overall design
 
-![design](./images/design.png)
+![design](./images/design_v2.png)
