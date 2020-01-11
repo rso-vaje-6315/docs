@@ -31,7 +31,7 @@ Get node external ip
 
 `kubectl get nodes --output wide`
 
-Ingress IP: `34.89.139.199`
+Ingress IP: `http://35.246.208.18` (old: `34.89.139.199`)
 
 Cluster IP: `35.242.205.141` (if not, try this: `34.89.253.14`)
 
