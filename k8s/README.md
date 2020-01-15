@@ -2,8 +2,8 @@
 
 Login to cluster:
 * `gcloud auth login`
-* `gcloud config set project local-reference-258619`
-* `gcloud container clusters get-credentials second-cluster --zone europe-west3-b`
+* `(gcloud config set project local-reference-258619)`
+* `gcloud container clusters get-credentials third-cluster --zone europe-west3-b`
 
 Create from file:
 
