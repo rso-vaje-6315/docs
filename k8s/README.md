@@ -98,3 +98,8 @@ Read EXTERNAL_IP from output. Test it with `/` which returns 404 and `/healthz` 
 Write [Ingress redirection rules](https://github.com/rso-vaje-6315/support-services/blob/master/ingress.yml) and create them (kubectl create / apply).
 
 Done! Services will be available at EXTERNAL_IP/<REDIRECT_RULE>. Example: http://EXTERNAL_IP/ratings-service/health 
+
+## Patch service
+```
+kubectl patch svc consul-service-consul-ui -n e-store -p '{\"spec\": {\"type\": \"NodePort\", \"ports\": [{\"port\": 8500, \"nodePort\": 31050, \"targetPort\": 8500, \"protocol\": \"TCP\", \"name\":\"server\"}]}}'
+```
