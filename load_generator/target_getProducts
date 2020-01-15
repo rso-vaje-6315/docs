@@ -1,0 +1,2 @@
+GET http://34.89.212.202:31013/v1/products
+Content-Type: application/json
